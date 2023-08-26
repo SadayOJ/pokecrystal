@@ -154,18 +154,21 @@ _CardFolderOpenText::
 	text_end
 
 _OakTimeWokeUpText::
-	text "<……><……><……><……><……><……>"
-	line "<……><……><……><……><……><……>"
+	text "We're no strangers"
+	line "to love"
 
-	para "Zzz… Hm? Wha…?"
-	line "You woke me up!"
+	para "You know the"
+	line "rules and so do I"
 
-	para "Will you check the"
-	line "clock for me?"
+	para "A full commitment's"
+	line "what I'm"
+	cont "thinking of"
 	prompt
 
 _OakTimeWhatTimeIsItText::
-	text "What time is it?"
+	text "You wouldn't get"
+	line "this from any"
+	cont "other guy"
 	done
 
 _OakTimeWhatHoursText::

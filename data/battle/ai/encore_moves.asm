@@ -31,4 +31,5 @@ EncoreMoves:
 	db AEROBLAST
 	db COTTON_SPORE
 	db POWDER_SNOW
+	db SPIKES
 	db -1 ; end

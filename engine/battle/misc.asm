@@ -179,6 +179,12 @@ DoBadgeTypeBoosts:
 	ld a, [wCurType]
 	cp [hl]
 	jr z, .ApplyBoost
+	
+	;check wCurType = "DARK"
+	;iffalse .NextBadge
+	;checkflag STATUSFLAGS_HALL_OF_FAME_F>0
+	;iftrue .ApplyBoost
+	;iffalse .NextBadge
 
 .NextBadge:
 	inc hl

@@ -20,4 +20,5 @@ UsefulMoves:
 	db FIRE_BLAST
 	db SOFTBOILED
 	db SUPER_FANG
+	db SPIDER_WEB
 	db -1 ; end

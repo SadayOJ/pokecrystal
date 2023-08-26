@@ -143,6 +143,32 @@ OakOpenMtSilverText:
 
 	para "reach MT.SILVER"
 	line "from there."
+	
+	para "...."
+	line "OH! and one"
+	
+	para "more thing."
+	line "A colleague of"
+
+	para "mine found a"
+	line "unique item."
+	
+	para "It seems to be"
+	line "a strange type"
+	
+	para "of #ball"
+	line "can you take it"
+	
+	para "to Kurt for me"
+	line "to have him"
+	
+	para "examine it?"
+	line "We've had it"
+	
+	para "sent to the"
+	line "#center in"
+	
+	para "Goldenrod City."
 	done
 
 OakNoKantoBadgesText:

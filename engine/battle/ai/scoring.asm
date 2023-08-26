@@ -127,7 +127,7 @@ AI_Setup:
 .encourage
 	call AI_50_50
 	jr c, .checkmove
-
+	
 	dec [hl]
 	dec [hl]
 	jr .checkmove
