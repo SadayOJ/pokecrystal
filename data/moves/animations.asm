@@ -253,9 +253,9 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_BulletPunch
+	dw BattleAnim_XScissor
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
-	dw BattleAnim_Dummy
 	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
@@ -3395,6 +3395,7 @@ BattleAnim_Protect:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_BulletPunch:
 BattleAnim_MachPunch:
 	anim_2gfx ANIM_GFX_SPEED, ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_HIDE_MON, $0, BG_EFFECT_USER, $0
@@ -3836,7 +3837,8 @@ BattleAnim_Spark:
 	anim_obj ANIM_OBJ_SPARKS_CIRCLE, 136, 56, $0
 	anim_wait 32
 	anim_ret
-
+	
+BattleAnim_XScissor:
 BattleAnim_FuryCutter:
 	anim_1gfx ANIM_GFX_CUT
 .loop

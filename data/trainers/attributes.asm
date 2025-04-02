@@ -359,7 +359,7 @@ TrainerClassAttributes:
 ; Kimono Girl
 	db NO_ITEM, NO_ITEM ; items
 	db 18 ; base reward
-	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Twins

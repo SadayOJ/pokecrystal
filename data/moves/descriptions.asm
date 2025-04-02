@@ -252,16 +252,15 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw BulletPunchDescription
+	dw XScissorDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFCDescription
-	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
-MoveFCDescription:
-MoveFDDescription:
+
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
@@ -1270,3 +1269,11 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+	
+BulletPunchDescription:
+	db	 "This speedy punch"
+	next "always goes first.@"
+
+XScissorDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"

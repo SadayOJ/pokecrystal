@@ -4,6 +4,7 @@
 	const OLIVINECITY_SAILOR2
 	const OLIVINECITY_OLIVINE_RIVAL
 
+
 OlivineCity_MapScripts:
 	def_scene_scripts
 	scene_script OlivineCityNoop1Scene, SCENE_OLIVINECITY_RIVAL_ENCOUNTER
@@ -45,6 +46,7 @@ OlivineCityRivalSceneTop:
 	variablesprite SPRITE_OLIVINE_RIVAL, SPRITE_SWIMMER_GUY
 	special LoadUsedSpritesGFX
 	end
+	
 
 OlivineCityRivalSceneBottom:
 	turnobject PLAYER, LEFT
@@ -269,7 +271,7 @@ OlivineGymSignText:
 	para "The Steel-Clad"
 	line "Defense Girl"
 	done
-
+	
 OlivineLighthouseSignText:
 	text "OLIVINE LIGHTHOUSE"
 	line "Also known as the"
